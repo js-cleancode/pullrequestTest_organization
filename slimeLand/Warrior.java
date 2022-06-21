@@ -5,6 +5,7 @@ public class Warrior {
     public int hp;
     public int mp;
     public int attRang;
+    public int exp = 0;
 
     public Warrior(String input_name, int input_hp, int input_mp) {
         this.name = input_name;
